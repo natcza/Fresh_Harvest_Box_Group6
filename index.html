@@ -394,37 +394,110 @@
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="footer">
-       <div class="container">
-        <div>
+      <div class="left-footer">
+        <div class="box footer-container">
           <picture>
-            <source media="(max-width: 200px)" srcset="./images/foorer_image_1x.jpg 1x, ./images/foorer_image_1x.jpg 2x">
-            <img class="product-photo" src="./images/foorer_image_1x.jpg" alt="Woman with banana fruits" />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./images/bananamobile1x.png 1x,
+                ./images/bananamobile2x.png 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/bananatablet1x.png 1x,
+                ./images/bananatablet2x.png 2x
+              "
+            />
+            <source
+              media="(min-width: 1250px)"
+              srcset="
+                ./images/bananadesktop1x.png 1x,
+                ./images/bananadesktop2x.jpg 2x
+              "
+            />
+            <img
+              src="./images/bananadesktop1x.png"
+              alt="Woman with banana fruits"
+            />
           </picture>
-          <p>fresh harvest box</p>
-        </div>
-        <ul class="footer-navigation">
-          <li>How It Works</li>
-          <li>Fruits</li>
-          <li>Contacts</li>
-        </ul>
-        <div>
-          <div class="footer-social-media">
-            <div class="footer-icon-box"></div>
-            <div class="footer-icon-box"></div>
-            <div class="footer-icon-box"></div>
-          </div>
-          <address>
-            <ul>
-              <li class="footer-phone"><a href="tel:+380684439426">+380 (68) 443-94-26</a></li>
-              <li>1678 S. Pioneer Road</li>
-              <li>Salt Lake City</li>
-              <li>UT 84104</li>
-            </ul>
-          </address>
-        </div>
+          <div class="footer-logo">
+            <span class="logo">
+              <svg class="logo-icon" width="17" height="16">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+            </span>
 
-       </div>
+            <a href="" class="logo-bottom">FRESH HARVEST BOX</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-link">
+        <ul class="footer-navigation">
+          <li><a href="" class="link">How It Works</a></li>
+          <li><a href="" class="link">Fruits</a></li>
+          <li><a href="" class="link">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="footer-set">
+        <ul class="social-media-set">
+          <li class="footer-icon-box">
+            <a
+              href="https://www.facebook.com/"
+              class="sv-link link-footer"
+              target="_blank"
+            >
+              <svg class="sv-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon-box">
+            <a
+              href="https://www.instagram.com/"
+              class="sv-link link-footer"
+              target="_blank"
+            >
+              <svg class="sv-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-icon-box">
+            <a
+              href="https://www.youtube.com/"
+              class="sv-link link-footer"
+              target="_blank"
+            >
+              <svg class="sv-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <adress class="footer-list">
+          <ul class="footer-address">
+            <li class="footer-contact">
+              <a class="footer-phone" href="tel:+380684439426"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li class="footer-maps">
+              <a
+                href="https://www.google.com/maps/place/1678+Pioneer+Rd,+Salt+Lake+City,+UT+84104,+Stany+Zjednoczone/@40.7335892,-111.9626616,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35b0826d399:0x2b26230524fd3ca3!8m2!3d40.7335892!4d-111.9600867!16s%2Fg%2F11bw41vm_p?hl=pl-PL&entry=ttu"
+                class="maps-link"
+                >1678 S. Pioneer Road<br />
+                Salt Lake City UT<br />
+                84104<br
+              /></a>
+            </li>
+          </ul>
+        </adress>
+      </div>
     </footer>
   </body>
 </html>
