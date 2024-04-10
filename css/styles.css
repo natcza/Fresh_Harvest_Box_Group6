@@ -291,6 +291,436 @@ img {
 /*---------------------------------------------------------------- */
 /* HOW IT WORKS Section */
 
+/* font styles section */
+
+.of-p {
+  font-family: "DM Sans" sans-serif;
+  font-weight: 400;
+  size: 14px;
+  line-height: 18px;
+  letter-spacing: 0, 04em;
+  color: #ffffff;
+}
+
+.of-list-item {
+  font-family: "DM Sans" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0, 04em;
+  color: #ffffff;
+}
+
+.plant {
+  font-family: "DM Sans" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0, 02em;
+  color: #ffffff;
+}
+
+.price {
+  font-family: "DM Sans" sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0, 04em;
+  color: #ae1332;
+}
+
+/* header position */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  width: 624px;
+}
+
+.of-p {
+  display: flex;
+  justify-content: center;
+  width: 547px;
+}
+
+.of-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* strawberry card */
+
+.strawberry-card {
+  width: 389px;
+  height: 465px;
+  background-color: #f8766b;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.strawberry-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* banana card */
+
+.banana-card {
+  width: 389px;
+  height: 465px;
+  background-color: #edd251;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.banana-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* watermelon card */
+
+.watermelon-card {
+  width: 389px;
+  height: 465px;
+  background-color: #9dc262;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.watermelon-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* lime card */
+
+.lime-card {
+  width: 389px;
+  height: 465px;
+  background-color: #bfd663;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.lime-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* apple card */
+
+.apple-card {
+  width: 389px;
+  height: 465px;
+  background-color: #e93f29;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.apple-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* peach card */
+
+.peach-card {
+  width: 389px;
+  height: 465px;
+  background-color: #db4f4b;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.peach-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* plums card */
+
+.plums-card {
+  width: 389px;
+  height: 465px;
+  background-color: #9b5366;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.plums-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* orange card */
+
+.orange-card {
+  width: 389px;
+  height: 465px;
+  background-color: #f47f4c;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.orange-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* kiwi card */
+
+.kiwi-card {
+  width: 389px;
+  height: 465px;
+  background-color: #98b37e;
+  margin-top: 44px;
+  border-radius: 20px;
+}
+
+.header-card {
+  margin: 0px;
+  padding-top: 64px;
+}
+
+.plant-card {
+  margin: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+.kiwi-card-box {
+  margin-left: 24px;
+}
+
+.price-card-box {
+  background-color: #ffffff;
+  width: 136px;
+  height: 48px;
+  padding: 15px, 42px, 15px, 42px;
+  margin-top: 4px;
+  border-radius: 200px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Fruits card position */
+
+.fruits-card-position {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+}
+
+/* Button order */
+
+.button-order {
+  background-color: #9dc262;
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  gap: 4px;
+  border-style: none;
+}
+
+.button-text {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  transform: rotate(-14deg);
+}
 
 
 /* END HOW IT WORKS Section */
