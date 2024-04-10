@@ -722,6 +722,209 @@ h2 {
   transform: rotate(-14deg);
 }
 
+/* 4th section Contacts */ 
+.slogan-box{
+    position: relative;
+    height: 591px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 80px auto;
+    font-family: "DM Sans", sans-serif;
+}
+
+.slogan-box-heading{
+    display: block;
+    text-align: center;
+    text-wrap: wrap;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.04;
+    color: #FFFFFF;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.slogan-images-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 100%px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){ /* ----------------------768px 1158px------------------------ */
+.slogan-box{
+    width: 1216px;
+}
+.slogan-box-heading{
+    width: 740px;
+    font-size: 64px;
+}
+.slogan-images-box{
+    top: 89px;
+    column-gap: 24px;
+}
+.slogan-image-right{
+    height:502px;
+    border-radius: 20px;
+}
+.slogan-image-left{
+    height:502px;
+    border-radius: 20px;
+}
+.newsletter-box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    align-items: center;
+    width:496px;
+    margin: 0 auto 150px auto;
+    font-family: "DM Sans", sans-serif;
+}
+.newsletter-box-paragraf{
+    width: 100%;
+    height: 54px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1,28;
+    letter-spacing: -0,06;
+    color: #FFFFFF;
+    text-align: center;
+}
+.newsletter-form{
+    position: relative;
+    display: flex;
+    width: 292px;
+    height: 48px;
+}
+.newsletter-input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: 0.04;
+    border-radius: 100px;
+    background-color: transparent;
+    outline: transparent;
+    color: #FFFFFF;
+}
+.newsletter-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+.newsletter-form-button:hover,
+.newsletter-form-button:focus{
+    background-color: #FFFFFF;
+    color: #9DC162;
+    border:1px solid rgba(0, 0, 0, 0.3);
+}
+.newsletter-form-button{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 114px;
+    height: 48px;
+    padding: 15px 35px;
+    background-color: #9DC162;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04;
+    color: #FFFFFF;
+    transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1),
+                border 100ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 500ms cubic-bezier(0.4, 0, 0.2, 1);    
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){ /* ----------------------768px 1158px------------------------ */
+.slogan-box{
+    width: 704px;
+}
+.slogan-box-heading{
+    width: 648px;
+    font-size: 54px;
+}
+.slogan-image-left{
+    height:480px;
+    border-radius: 20px;
+}
+.slogan-image-right{
+    height:480px;
+    border-radius: 20px;
+}
+
+}
+@media screen and (max-width: 767px) { /* ----------------------767px------------------------ */
+.slogan-box{
+    /* Resolution min 375 max 768 */
+    width: 375px;
+}
+.slogan-box-heading{
+    /* Resolution min 375 max 768 */
+    width: 335px;
+    font-size: 32px;
+}
+.slogan-images-box{
+    /* Resolution min 375 max 768 */
+    top: 54px;
+}
+.slogan-image-left{
+    height:476px;
+    border-radius: 20px;
+}
+.slogan-image-right{
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.newsletter-box{
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.newsletter-box-paragraf{
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.newsletter-form{
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.newsletter-input{
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+
+.newsletter-form-button{
+    /* Resolution min 375 max 768 */
+    display: none;        
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* END HOW IT WORKS Section */
 /* ---------------------------------------------------------------- */

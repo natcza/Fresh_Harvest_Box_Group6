@@ -337,10 +337,35 @@
     <!-- 4th section Contacts -->
     <section id="contact" class="section section__contact">
       <div class="container">
-        <h2 class="contact__title">
-          Fresh Harvest Box has got you covered
-        </h2>
-    
+      </div>
+      <div class="slogan-box">
+        <h2 class="slogan-box-heading">Fresh Harvest Box has got you covered</h2>
+        <div class="slogan-images-box">
+          <picture>
+            <source media="(max-width: 767px)" srcset="./images/melon_mobile_1x.jpg 1x, ./images/melon_mobile_2x.jpg 2x">
+            <source media="(max-width: 1279px)" srcset="./images/melon_teblet_1x.jpg 1x, ./images/melon_teblet_2x.jpg 2x">
+            <source media="(min-width: 1280px)" srcset="./images/melon_1x.jpg 1x, ./images/melon_2x.jpg 2x">
+            <img class="slogan-image-left" src="./images/melon_1x.jpg" alt="melon"/>
+          </picture>
+          <picture>
+            <source media="(max-width: 1279px)" srcset="./images/blueberries_tablet_1x.jpg 1x, ./images/blueberries_tablet_2x.jpg 2x">
+            <source media="(min-width: 1280px)" srcset="./images/blueberries_1x.jpg 1x, ./images/blueberries_2x.jpg 2x">
+            <img class="slogan-image-right" src="./images/blueberries_1x.jpg" alt="blueberries"/>
+          </picture>
+        </div>
+      </div>
+      <div class="newsletter-box">
+        <p class="newsletter-box-paragraf">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        <form class="newsletter-form">
+            <label for="user-email"></label>
+              <input
+                class="newsletter-input" 
+                type="email" 
+                name="user-email" 
+                id="user-email"
+                placeholder="Enter email..."/>
+          <button class="newsletter-form-button" type="submit">Send</button>
+        </form>
       </div>
     </section>
 
