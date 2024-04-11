@@ -15,15 +15,11 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/footer.css">
 
-
     <!-- Font familiy -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@400,500;700&display=swap"
-      rel="stylesheet">
-
-    <!-- !! finde fonts DM Sans: wght@400;500;700-->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
 
   </head>
 
@@ -360,7 +356,7 @@
     </section>
 
     <!-- 4th section Contacts -->
-    <section id="contact" class="section section__contact">
+    <section id="contact">
       <div class="container">
       </div>
       <div class="slogan-box">
@@ -499,5 +495,124 @@
         </adress>
       </div>
     </footer>
+    <!-- Your order Section-->
+      <div class="backdrop modal-open">
+        <div class="your-order modal-open">
+          <button class="your-order-cancel-button" type="button">
+            <svg width="16" height="16" class="your-order-cancel-icon">
+              <use href="./images/icons.svg#icon-x"></use>
+            </svg>
+          </button>
+          <h3 class="your-order-hedding">Your Order</h3>
+          <div class="ordered-products-box">
+            <div class="orderd-product">
+              <button class="orderd-product-checkbox">
+                <svg width="8" height="8" class="orderd-product-checkbox-icon">
+                  <use href="./images/icons.svg#icon-check-box"></use>
+                </svg>
+              </button>
+              <h4 class="orderd-product-hedding">Strawberry Basket</h4>
+              <p class="orderd-product-paragraf">Plant</p>
+              <picture class="orderd-product-iamge">
+                <source media="(max-width: 767px)" srcset="./images/strawberry_basket_mobile_1x.png 1x, ./images/strawberry_basket_mobile_2x.png 2x">
+                <source media="(max-width: 1279px)" srcset="./images/strawberry_basket_tablet_1x.png 1x, ./images/strawberry_basket_tablet_2x.png 2x">
+                <source media="(min-width: 1280px)" srcset="./images/strawberry_basket_1x.png 1x, ./images/strawberry_basket_2x.png 2x">
+                <img class="orderd-product-iamge" src="./images/strawberry_basket_1x.png" alt="strawberry basket"/>
+              </picture>
+            </div>
+            <div class="orderd-product">
+              <button class="orderd-product-checkbox">
+                <svg width="8" height="8" class="">
+                  <use href="./images/icons.svg#icon-check-box"></use>
+                </svg>
+              </button>
+              <h4 class="orderd-product-hedding">Apple Basket</h4>
+              <p class="orderd-product-paragraf">Plant</p>
+              <picture class="orderd-product-iamge">
+                 <source media="(max-width: 767px)" srcset="./images/aplle_basket_mobile_1x.png 1x, ./images/aplle_basket_mobile_2x.png 2x">               
+                <source media="(max-width: 1279px)" srcset="./images/aplle_basket_tablet_1x.png 1x, ./images/aplle_basket_tablet_2x.png 2x">                
+                <source media="(min-width: 1280px)" srcset="./images/aplle_basket_1x.png 1x, ./images/aplle_basket_2x.png 2x">
+
+                <img class="orderd-product-iamge" src="./images/aplle_basket_1x.png" alt="aplle basket"/>
+              </picture>
+            </div>
+            <div class="orderd-product">
+              <button class="orderd-product-checkbox">
+                <svg width="8" height="8" class="">
+                  <use href="./images/icons.svg#icon-check-box"></use>
+                </svg>
+              </button>
+              <h4 class="orderd-product-hedding">Fruits Basket</h4>
+              <p class="orderd-product-paragraf">Plant</p>
+              <picture class="orderd-product-iamge">
+                <source media="(max-width: 767px)" srcset="./images/fruit_basket_mobile_1x.png 1x, ./images/fruit_basket_mobile_2x.png 2x">
+                <source media="(max-width: 1279px)" srcset="./images/fruit_basket_tablet_1x.png 1x, ./images/fruit_basket_tablet_2x.png 2x">
+                <source media="(min-width: 1280px)" srcset="./images/fruit_basket_1x.png 1x, ./images/fruit_basket_2x.png 2x">
+
+                <img class="orderd-product-iamge" src="./images/fruit_basket_1x.png" alt="fruit basket"/>
+              </picture>
+            </div>
+          </div>
+          <form class="ordering-form">
+            <div class="ordering-form-input-box">
+              <label class="" for="user-name"></label>
+                <input
+                  class="ordering-form-input" 
+                  type="text" 
+                  name="user-name" 
+                  id="user-name"
+                  placeholder="Enter full name..."/>
+            </div>
+            <div class="ordering-form-input-box">
+              <label class="" for="user-email"></label>
+                <input
+                  class="ordering-form-input" 
+                  type="email" 
+                  name="user-email" 
+                  id="user-email"
+                  placeholder="Enter email..."/>
+            </div>
+            <div class="ordering-form-input-box">
+              <label for="user-card"></label>
+                <input
+                  class="ordering-form-input" 
+                  type="text" 
+                  name="user-card" 
+                  id="user-card"
+                  placeholder="Enter card..."/>
+            </div>
+            <div class="ordering-form-input-textarea-box">
+              <label for="user-comment"></label>
+                <textarea
+                  class="ordering-form-input-textarea"
+                  name="user-comment"
+                  placeholder="Enter comments..."
+                  id="user-comment"></textarea>
+            </div>
+            <button class="ordering-form-button" type="submit">Submit</button>
+          </form>
+          <picture class="">
+            <source media="(min-width: 768px)" srcset="./images/basket_image_1x.jpg 1x, ./images/basket_image_2x.jpg 2x">
+            <img class="your-order-image" src="./images/basket_image_1x.jpg" alt="Woman with banana fruits"/>
+          </picture>
+        </div>
+      </div>
+<!-- Thank You Section-->
+      <div div class="thank-you-backdrop modal-open">
+        <div class="thank-you-box modal-open">
+          <button class="thank-you-cancel-button" type="button">
+            <svg width="16" height="16">
+              <use href="./images/icons.svg#icon-x"></use>
+            </svg>
+          </button>
+          <picture class="thank-you-images">
+            <source media="(max-width: 767px)" srcset="./images/raspberries_mobile_1x.png 1x, ./images/raspberries_mobile_2x.png 2x">
+            <source media="(min-width: 768px)" srcset="./images/raspberries_1x.png 1x, ./images/raspberries_2x.png 2x">
+            <img src="./images/raspberries_1x.png" alt="strawberry_basket"/>
+          </picture>
+          <h4 class="thank-you-headding">THANK YOU</h4>
+          <p class="thank-you-paragraf">Thank you for your order! Our team is preparing your box with fresh, delicious fruits and vegetables, and we'll deliver it straight to your doorstep. We appreciate your business and look forward to providing you with the best possible experience!</p>
+        </div>
+      </div>
   </body>
 </html>
