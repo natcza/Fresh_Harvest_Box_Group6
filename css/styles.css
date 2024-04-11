@@ -300,7 +300,6 @@ button{
 /* END HERO Section */
 /*---------------------------------------------------------------- */
 /* HOW IT WORKS Section */
-
 .works-box{
   display: block;
   justify-content: center;
@@ -560,7 +559,6 @@ button{
     border-radius: 20px;
     width: 860px;
     height: 476px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
   .gif-style{
     margin-top: 83px;
@@ -571,7 +569,6 @@ button{
   width: 510px;
   }
 }
-
 
 
 /* font styles section */
@@ -617,7 +614,6 @@ button{
 h2 {
   display: flex;
   justify-content: center;
-  width: 624px;
 }
 
 .of-p {
