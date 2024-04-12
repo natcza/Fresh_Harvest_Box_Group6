@@ -26,8 +26,8 @@
 <path d="M18 6L6 18" stroke="#AE1332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M6 6L18 18" stroke="#AE1332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
-<symbol id="icon-Vector" viewBox="0 0 30 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M29.867 4.588l-4.425-4.425v22.123l-22.123-22.123-3.319 3.319 22.124 22.123h-22.124l4.425 4.425h25.442v-25.442z"></path>
+<symbol id="icon-arrow" viewBox="0 0 30 32">
+<path d="M29.867 4.588l-4.425-4.425v22.123l-22.123-22.123-3.319 3.319 22.124 22.123h-22.124l4.425 4.425h25.442v-25.442z"></path>
 </symbol>
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path fill="#ae1332" style="fill: var(--color1, #ae1332)" opacity="0.8" d="M19.52 4.64c0.24 0 0.48 0 0.96 0v3.6c-0.24 0-0.72 0-1.2 0s-0.96 0-1.2 0.24c-0.24 0.24-0.24 0.48-0.24 1.040 0 0.48 0 0.8 0 1.28h2.64v3.040h-2.64v13.2h-4.080v-13.28h-2.16v-3.040h2.16v-1.040c0-1.76 0.24-3.040 0.72-3.6 0.72-1.040 2.16-1.52 4.32-1.52 0.24 0.080 0.48 0.080 0.72 0.080z"></path>

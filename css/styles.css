@@ -833,54 +833,99 @@ button{
   letter-spacing: 0, 04em;
   color: #ae1332;
 }
-
-/* header position */
-
-h2 {
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
+.organic-fruits-section{
   display: flex;
-  justify-content: center;
-}
-
-.of-p {
-  display: flex;
-  justify-content: center;
-  width: 547px;
-}
-
-.of-header {
-  display: flex;
+  flex-direction: column;
   align-items: center;
   flex-direction: column;
-  gap: 14px;
+  margin:0 auto 150px;
+  font-family: "DM Sans", sans-serif;
 }
 
-/* strawberry card */
-
-.strawberry-card {
-  width: 389px;
-  height: 465px;
-  background-color: #f8766b;
-  margin-top: 44px;
+.organic-fruits-heading{
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.04;
+  margin:0 auto 14px;
+  text-align: center;
+}
+.organic-fruits-paragraf{
+  margin:0 auto 44px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: 0.04;
+  color: #FFFFFF;
+}
+.organic-fruits-box{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.organic-fruit-card{
   border-radius: 20px;
 }
 
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
+.organic-fruits-box li:nth-child(1){
+    background-color: #F8766B;
+}
+.organic-fruits-box li:nth-child(2){
+    background-color: #edd251;
+}
+.organic-fruits-box li:nth-child(3){
+    background-color: #9dc262;
+}
+.organic-fruits-box li:nth-child(4){
+    background-color: #bfd663;
+}
+.organic-fruits-box li:nth-child(5){
+    background-color: #e93f29;
+}
+.organic-fruits-box li:nth-child(6){
+    background-color: #db4f4b;
+}
+.organic-fruits-box li:nth-child(7){
+    background-color: #9b5366;
+}
+.organic-fruits-box li:nth-child(8){
+    background-color: #f47f4c;
+}
+.organic-fruits-box li:nth-child(9){
+    background-color: #98b37e;
 }
 
-.plant-card {
-  margin: 0px;
+.organic-fruit-card-box{
+    padding: 24px;
+}
+.organic-fruit-card-headding{
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.18;
+  letter-spacing: 0.04;
+  color: #FFFFFF;
+}
+.organic-fruit-card-paragraf{
   margin-top: 7px;
-  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.04;
+  color: #FFFFFF;
 }
-
-.strawberry-card-box {
-  margin-left: 24px;
+.organic-fruit-card-image{
+  margin:0 auto;
+  width: 295px;
+  height:252px;
 }
-
-.price-card-box {
-  background-color: #ffffff;
+.organic-fruit-card-price{
+    background-color: #ffffff;
   width: 136px;
   height: 48px;
   padding: 15px, 42px, 15px, 42px;
@@ -891,332 +936,23 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-
-/* banana card */
-
-.banana-card {
-  width: 389px;
-  height: 465px;
-  background-color: #edd251;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.banana-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* watermelon card */
-
-.watermelon-card {
-  width: 389px;
-  height: 465px;
-  background-color: #9dc262;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.watermelon-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* lime card */
-
-.lime-card {
-  width: 389px;
-  height: 465px;
-  background-color: #bfd663;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.lime-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* apple card */
-
-.apple-card {
-  width: 389px;
-  height: 465px;
-  background-color: #e93f29;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.apple-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* peach card */
-
-.peach-card {
-  width: 389px;
-  height: 465px;
-  background-color: #db4f4b;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.peach-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* plums card */
-
-.plums-card {
-  width: 389px;
-  height: 465px;
-  background-color: #9b5366;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.plums-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* orange card */
-
-.orange-card {
-  width: 389px;
-  height: 465px;
-  background-color: #f47f4c;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.orange-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* kiwi card */
-
-.kiwi-card {
-  width: 389px;
-  height: 465px;
-  background-color: #98b37e;
-  margin-top: 44px;
-  border-radius: 20px;
-}
-
-.header-card {
-  margin: 0px;
-  padding-top: 64px;
-}
-
-.plant-card {
-  margin: 0px;
-  margin-top: 7px;
-  margin-bottom: 4px;
-}
-
-.kiwi-card-box {
-  margin-left: 24px;
-}
-
-.price-card-box {
-  background-color: #ffffff;
-  width: 136px;
-  height: 48px;
-  padding: 15px, 42px, 15px, 42px;
-  margin-top: 4px;
-  border-radius: 200px;
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Fruits card position */
-
-.fruits-card-position {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  gap: 24px;
-}
-
 /* Button order */
 
-.button-order {
+.organic-fruit-button{
   background-color: #9dc262;
   width: 114px;
   height: 114px;
   border-radius: 50%;
   gap: 4px;
   border-style: none;
+  margin: 44px auto 0;
 }
-
-.button-text {
+.organic-fruit-button-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.organic-fruit-button-text{
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -1225,7 +961,105 @@ h2 {
   letter-spacing: 0.04em;
   transform: rotate(-14deg);
 }
+.organic-fruit-button-icon{
+  fill:#ffffff;
+}
+@media screen and (min-width: 1279px){ /* ----------------------1279px------------------------ */
+.organic-fruits-section{
+  /* Resolution min 1280 */
+  width: 1280px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.organic-fruits-heading{
+  font-size: 40px;
+  line-height: 1.1;
+}
+.organic-fruits-paragraf{
+  width: 547px;
+}
+.organic-fruits-box{
+  /* Resolution min 1280 */
+  gap:24px;
+}
+.organic-fruit-card{
+  /* Resolution min 1280 */
+  width: 389px;
+  height: 465px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1279px){ /* ----------------------768px 1279px------------------------ */
+.organic-fruits-section{
+  /* Resolution min 768 max 1280 */
+  width: 768px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.organic-fruits-heading{
+  font-size: 40px;
+  line-height: 1.1;
+}
+.organic-fruits-paragraf{
+  width: 547px;
+}
+.organic-fruits-box{
+  /* Resolution min 768 max 1280 */
+  gap:16px;
+}
+.organic-fruit-card{
+  /* Resolution min 768 max 1280 */
+  width: 344px;
+  height: 465px;
+}
 
+.organic-fruits-box li:nth-child(9){
+    /* Resolution min 768 max 1280 */
+    display: none;
+}
+
+}
+@media screen and (max-width: 768px){ /* ----------------------375px 767px------------------------ */
+.organic-fruits-section{
+  /* Resolution min 375 max 768 */
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.organic-fruits-heading{
+  /* Resolution min 375 max 768 */
+  font-size: 28px;
+  line-height: 1;
+}
+.organic-fruits-paragraf{
+  /* Resolution min 375 max 768 */
+  width: 335px;
+}
+.organic-fruits-box{
+  /* Resolution min 375 max 768 */
+  gap:14px;
+}
+.organic-fruit-card{
+  /* Resolution min 375 max 768 */
+  width: 344px;
+  height: 465px;
+}
+.organic-fruits-box li:nth-child(7){
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.organic-fruits-box li:nth-child(8){
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+.organic-fruits-box li:nth-child(9){
+    /* Resolution min 375 max 768 */
+    display: none;
+}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
+/* ++++++++++++++++++++++++++++++++++++++Krystian Ryczek ORGANIC FRUITS */ 
 /* 4th section Contacts */ 
 .slogan-box{
     position: relative;
@@ -1234,6 +1068,8 @@ h2 {
     flex-direction: column;
     margin: 0 auto 80px auto;
     font-family: "DM Sans", sans-serif;
+
+    /* Resolution min 768 max 1280 */
 }
 
 .slogan-box-heading{
@@ -1872,7 +1708,6 @@ div.modal-open{
     background-color: rgba(157, 193, 98, 0.05);
 }
 .ordering-form-input-textarea {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
