@@ -649,6 +649,7 @@ button{
       display: block;
   }
   .works-box{
+
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -659,7 +660,11 @@ button{
     justify-content: center;
     margin: 0 auto 80px;
     width: 389px;
+
+    width: auto;
+    margin: auto;
   }
+
   .works-title{
     line-height: 1.1;
     text-transform: uppercase;
@@ -685,7 +690,9 @@ button{
     color: #fff;
     align-items: center;
     width: 510px;
+
     margin: 0 auto 44px;
+
     font-family: "DM sans", sans-serif;
   }
   .text-block{
