@@ -121,264 +121,139 @@
       
     </div>
 
-    </main>
-    <!-- 1st section HERO -->
-    <section id="hero" class="section hero-section">
-      <div class="container">
-        <h1 class="hero-section__title">fresh harvest box
-        is your one-stop place for a delicious fruit basket
-        </h1>
-           
-      </div>
-    </section>
-
-    <!-- 2nd section How it works -->
-    <section id="howItWorks" class="section">
-      <div class="container">
-        <div class="works-box">
-          <div class="works-title-box">
-              <h2 class="works-title">To order your fruit basket, simply follow these easy steps</h2>
-                  <p class="text-works-title">Our baskets are assembled with care and delivered straight to your doorstep, so you can enjoy the taste of fresh fruit without ever leaving your home. Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the perfect choice.</p>
+    <main>
+      <!-- 1st section HERO -->
+      <section id="hero" class="section hero-section">
+        <div class="container">
+          <!-- hero heding h1 -->
+          <h1 class="hero-section__heading">fresh harvest box <br> is your one-stop place <br> for a delicious fruit <br>
+            basket
+          </h1>
+          <!-- hero button shop now -->
+          <a href="#shop-now" class="round-btn__link">
+            <svg width="80" height="80" class="icon-shop-now">
+              <use href="./images/icons.svg#icon-shop-now-btn" width="80" height="80">
+              </use>
+            </svg>
+          </a>
+          <!-- hero main banner -->
+          <div class="hero-img__wrapper">
+            <div class="hero-img">
+              <img srcset="
+                      ./images/mobile-red-haired-woman@1x.png
+                      ./images/mobile-red-haired-woman@2x.png" src="./images/mobile-red-haired-woman@1x.png"
+                alt="young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink" width="311" class="card__img">
+            </div>
           </div>
+          <!-- hero sidebar -->
+          <div class="hero-sidebar sidebar__left">
+            <p class="sidebar__caption text__">Our expertly curated fruit baskets are made with the freshest, highest quality
+              fruits available. Whether you are looking
+              for a healthy snack or a gift for a loved one, Fresh Harvest Box has got you covered.
+            </p>
+            <div class="fruit-card fruit-card__sidebar  fruit-card__watermelon">
+              <div class="fruit-card__title fruit-card__title--watermelon">
+                Fruit
+              </div>
+              <img srcset="
+                      ./images/tropical-watermelon@1x.png
+                      ./images/tropical-watermelon@2x.png" src="./images/tropical-watermelon@1x.png"
+                alt="young-energetic-red-haired-woman-white-t-shirt-holding-tasty-oranges-pink" width="200"
+                class="fruit-card__img">
+              <!-- shadow - not working - try to fix it
+                        <img src="./images/oval-shadow.jpg"
+                        width="200"
+                        class="fruit-card__img--shadow">
+                        -->
       
+              <figcaption class="fruit-card__caption fruit-card__caption--watermelon">
+                Refreshing and juicy, watermelon is the perfect summer treat and a great source of hydration
+              </figcaption>
+            </div>
+          </div>
+          <div class="hero-sidebar sidebar__right">
+            <ul class="sidebar-links">
+              <li>
+                <button type="button" class="sidebar-btn sidebar__btn--first">
+                  <a href="#organic" class="sidebar-link">
+                    #organic
+                  </a>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="sidebar-btn sidebar__btn--sec">
+                  <a href="#products" class="sidebar-link">
+                    #products
+                  </a>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="sidebar-btn sidebar__btn--third">
+                  <a href="#basket" class="sidebar-link">
+                    #basket
+                  </a>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="sidebar-btn sidebar__btn--fourth">
+                  <a href="#fruits" class="sidebar-link">
+                    #fruits
+                  </a>
+                </button>
+              </li>
+            </ul>
+            <div class="fruit-card fruit-card__strawberry">
+              <div class="fruit-card__title fruit-card__title--strawberry">
+                Fruit
+              </div>
+              <img srcset="
+                      ./images/strawberry-basket@1x.png,
+                      ./images/strawberry-basket@2x.png" src="./images/strawberry-basket@1x.png" alt="strawberry-in-basket"
+                width="162" class="fruit-card__img">
+              <figcaption class="fruit-card__caption fruit-card__caption--strawberry">
+                Sweet and juicy, strawberries are packed with vitamin C and antioxidants, making them a delicious and healthy
+                snack
+              </figcaption>
+            </div>
       
-          <ul class="works-blocks">
-              <li class="block-step">
-                  <div class="block-style">
-                      <div class="first-step"><p class="text">First Step</p></div>
-                          <p class="text-block">Just choose the fruit you want to order by clicking on the checkboxes next to it.</p>
-                  </div>
-              </li>
-               <li class="block-step">
-                  <div class="block-style">
-                      <div class="second-step"><p class="text">Second Step</p></div>
-                          <p class="text-block">Click on the basket and fill out the form.</p>
-                  </div>
-              </li>
-              <li class="block-step">
-                  <div class="block-style">
-                      <div class="third-step"><p class="text">Third Step</p></div>
-                          <p class="text-block-end">Sit back and relax! Your fresh fruit basket will be delivered.</p>
-                  </div>
-              </li>
-          </ul>
-      </div>
-      <div class="gif-style">
-      <img src="./images/Fresh Harvest Box.gif" alt="fruit" class="fruit-gif">
-      </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 3rd section Fruits -->
-    <section id="fruits" class="organic-fruits-section">
-     <h2 class="organic-fruits-heading">Organic Fruits</h2>
-     <p class="organic-fruits-paragraf">
-          Our organic fruits are hand-picked from local farms and delivered
-          straight to your doorstep, ensuring that you get the freshest and most
-          nutritious produce possible. We offer a wide selection of organic
-          fruits grown without the use of harmful pesticides or chemicals.
-     </p>
-     <ul class="organic-fruits-box">
-  <!-- ============================================================================== -->        
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Strawberry</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/strawberry.png"
-                alt="Strawberry"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">100 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== -->           
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Banana</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/banana.png"
-                alt="Banana"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">80 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Watermelon</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/watermelon.png"
-                alt="Watermelon"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">40 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-   <!-- ============================================================================== -->         
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Lime</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/lime.png"
-                alt="Lime"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">60 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Apple</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/apple.png"
-                alt="Apple"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">50 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Peach</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/peach.png"
-                alt="Peach"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">80 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Plums</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/plums.png"
-                alt="Plums"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">40 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-<!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Orange</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/orange.png"
-                alt="Orange"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">60 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-          <li class="organic-fruit-card">
-            <div class="organic-fruit-card-box">
-              <h3 class="organic-fruit-card-headding">Kiwi</h3>
-              <p class="organic-fruit-card-paragraf">Plant</p>
-              <img
-                class="organic-fruit-card-image"
-                src="./images/kiwi.png"
-                alt="Kiwi"
-                width="295px"
-                height="251px"
-              />
-              <div class="organic-fruit-card-price">
-                <p class="price">90 UAH / kg</p>
-              </div>
-            </div>
-          </li>
-  <!-- ============================================================================== --> 
-        </div>
-      </ul>
-      <!-- button -->
-      <button class="organic-fruit-button" type="button">
-        <div class="organic-fruit-button-box">
-          <svg class="organic-fruit-button-icon" width="14" height="14">
-            <use href="./images/symbol-defs.svg#icon-arrow"></use>
-          </svg>
-          <p class="organic-fruit-button-text">ORDER</p>
-        </div>
-      </button>
-    </section>   <!-- ============================================================================== --> 
 
-    <!-- 4th section Contacts -->
-    <section id="contact">
-      <div class="container">
-      </div>
-      <div class="slogan-box">
-        <h2 class="slogan-box-heading">Fresh Harvest Box has got you covered</h2>
-        <div class="slogan-images-box">
-          <picture>
-            <source media="(max-width: 767px)" srcset="./images/melon_mobile_1x.jpg 1x, ./images/melon_mobile_2x.jpg 2x">
-            <source media="(max-width: 1279px)" srcset="./images/melon_teblet_1x.jpg 1x, ./images/melon_teblet_2x.jpg 2x">
-            <source media="(min-width: 1280px)" srcset="./images/melon_1x.jpg 1x, ./images/melon_2x.jpg 2x">
-            <img class="slogan-image-left" src="./images/melon_1x.jpg" alt="melon"/>
-          </picture>
-          <picture>
-            <source media="(max-width: 1279px)" srcset="./images/blueberries_tablet_1x.jpg 1x, ./images/blueberries_tablet_2x.jpg 2x">
-            <source media="(min-width: 1280px)" srcset="./images/blueberries_1x.jpg 1x, ./images/blueberries_2x.jpg 2x">
-            <img class="slogan-image-right" src="./images/blueberries_1x.jpg" alt="blueberries"/>
-          </picture>
+      <!-- 4th section Contacts -->
+      <section id="contact">
+        <div class="container">
         </div>
-      </div>
-      <div class="newsletter-box">
-        <p class="newsletter-box-paragraf">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        <form class="newsletter-form">
-            <label for="user-email"></label>
-              <input
-                class="newsletter-input" 
-                type="email" 
-                name="user-email" 
-                id="user-email"
-                placeholder="Enter email..."/>
-          <button class="newsletter-form-button" type="submit">Send</button>
-        </form>
-      </div>
-    </section>
-
+        <div class="slogan-box">
+          <h2 class="slogan-box-heading">Fresh Harvest Box has got you covered</h2>
+          <div class="slogan-images-box">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./images/melon_mobile_1x.jpg 1x, ./images/melon_mobile_2x.jpg 2x">
+              <source media="(max-width: 1279px)" srcset="./images/melon_teblet_1x.jpg 1x, ./images/melon_teblet_2x.jpg 2x">
+              <source media="(min-width: 1280px)" srcset="./images/melon_1x.jpg 1x, ./images/melon_2x.jpg 2x">
+              <img class="slogan-image-left" src="./images/melon_1x.jpg" alt="melon"/>
+            </picture>
+            <picture>
+              <source media="(max-width: 1279px)" srcset="./images/blueberries_tablet_1x.jpg 1x, ./images/blueberries_tablet_2x.jpg 2x">
+              <source media="(min-width: 1280px)" srcset="./images/blueberries_1x.jpg 1x, ./images/blueberries_2x.jpg 2x">
+              <img class="slogan-image-right" src="./images/blueberries_1x.jpg" alt="blueberries"/>
+            </picture>
+          </div>
+        </div>
+        <div class="newsletter-box">
+          <p class="newsletter-box-paragraf">Our boxes are packed with delicious, nutritious fruits and vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+          <form class="newsletter-form">
+              <label for="user-email"></label>
+                <input
+                  class="newsletter-input" 
+                  type="email" 
+                  name="user-email" 
+                  id="user-email"
+                  placeholder="Enter email..."/>
+            <button class="newsletter-form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <!-- FOOTER -->
     <footer class="footer">
       <div class="left-footer">
