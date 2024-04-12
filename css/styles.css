@@ -310,7 +310,6 @@ button{
   justify-content: center;
   align-items: center;
   width: 335px;
-  height: 608px;
 }
 .works-blocks{
   padding-top: 44px;
@@ -327,6 +326,7 @@ button{
   line-height: 28px; 
   margin-bottom: 14px;
   letter-spacing: -0.04em;
+  font-family: "DM sans", sans-serif;
 }
 .text-works-title{
   font-weight: 400;
@@ -339,6 +339,7 @@ button{
   text-align: center;
   margin-bottom: 14px;
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
+  font-family: "DM sans", sans-serif;
 }
 .block-step{
   display: flex;
@@ -351,9 +352,10 @@ button{
   margin-bottom: 20px;
 }
 .block-style{
-  display: flex;
-  gap: 14px;
-}
+    display: flex;
+    margin: 40px 20px;
+    gap: 14px;
+  }
 .text{
   line-height: 24px; 
   line-height: 1.33333;
@@ -374,8 +376,9 @@ button{
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 145px;
-  height: 55px;
+  width: 136px;
+  font-family: "DM sans", sans-serif;
+
 }
 .text-block-end{
   text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
@@ -388,6 +391,7 @@ button{
   align-items: center;
   align-content: center;
   width: 145px;
+  font-family: "DM sans", sans-serif;
 }
 .first-step{
   border-radius: 200px;
@@ -433,16 +437,12 @@ button{
       display: block;
   }
   .works-box{
-    display: block;
-    width: 624px;
-    justify-content: center;
-    align-items: center;
+    width: auto;
     margin: auto;
   }
   .works-blocks{
-    display: block;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    width: 100%;
   }
   .works-title{
     line-height: 1.1;
@@ -454,6 +454,10 @@ button{
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
     line-height: 44px; 
     margin-bottom: 14px;
+    font-family: "DM sans", sans-serif;
+    margin: auto;
+    width: 600px;
+
   }
   .text-works-title{
     font-weight: 400;
@@ -465,12 +469,22 @@ button{
     color: #fff;
     align-items: center;
     width: 510px;
+    margin: auto;
+    font-family: "DM sans", sans-serif;
+  }
+  .text-block{
+    width: 199px;
+    font-family: "DM sans", sans-serif;
+  }
+  .text-block-end{
+    width: 199px;
+    font-family: "DM sans", sans-serif;
   }
   .block-step{
     display: flex;
     border-radius: 20px;  
-    width: 335px;
-    height: 112px;
+    width: 389px;
+    height: 128px;
     background-image: url(../images/image-63347645.jpg);
     justify-content: center;
     align-items: center;
@@ -484,16 +498,16 @@ button{
   .gif-style{
     margin-bottom: 80px;
   }
+
 }
 
 /*-------------------Desctop---------------- */
 @media (min-width: 1158px) {
   .container {
-    display: flex;
+    display: block;
   }
   .works-box{
-    width: 1216px;
-    height: 329px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -506,8 +520,8 @@ button{
   .block-step{
     display: flex;
     border-radius: 20px;  
-    width: 335px;
-    height: 112px;
+    width: 389px;
+    height: 128px;
     background-image: url(../images/image-63347645.jpg);
     justify-content: center;
     align-items: center;
@@ -523,7 +537,7 @@ button{
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
     line-height: 44px; 
     margin-bottom: 14px;
-    width: 624px;
+    width: 600px;
     margin: auto;
   }
   .text-works-title{
@@ -539,11 +553,18 @@ button{
     margin: auto;
     text-shadow: 0 4px 70px 0 rgba(0, 0, 0, 0.1);
     margin-top: 14px;
+    width: 510px;
   }
   .works-blocks{
     display: flex;
     gap: 14px;
     padding-top: 44px;
+  }
+  .text-block{
+    width: 166px;
+  }
+  .text-block-end{
+    width: 199px;
   }
   .block-step{
     display: flex;
@@ -569,9 +590,7 @@ button{
     margin-top: 83px;
     align-items: center;
     align-content: center;
-  }
-  .text-works-title{
-  width: 510px;
+    display: flex;
   }
 }
 
